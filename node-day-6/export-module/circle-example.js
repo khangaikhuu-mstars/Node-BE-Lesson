@@ -9,7 +9,8 @@ function Circle(x, y, r) {
 
   return {
     area: area,
+    squared: r_squared,
   };
 }
 
-module.export = Circle;
+module.exports = Circle;
